@@ -1,2 +1,1 @@
-# Cpp-newfile-CLI
-A CLI to create a c plus plus file
+# Command-line Interface to generate c++ files with given name and functions
