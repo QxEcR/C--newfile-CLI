@@ -5,7 +5,7 @@
 
 ```shell
 $ git clone https://github.com/QxEcR/code-file-generator-cli.git
-$ cd cpp-newfile-CLI
+$ cd code-file-generator-cli
 $ pip3 install .
 ```
 
