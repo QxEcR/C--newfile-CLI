@@ -24,7 +24,7 @@ $ cpp-nf main print:void
 ```
 
 
-### Case 3. create a cpp file with n functions
+### Case 3. create a cpp file with n number of functions
 #### Command -> cpp-nf {filename with no extension} {function name : function type} {function name : function type} ...
 ```shell
 $ cpp-nf main print:void getNum:int getChar:char
