@@ -29,3 +29,5 @@ $ cpp-nf main print:void
 ```shell
 $ cpp-nf main print:void getNum:int getChar:char
 ```
+
+check
