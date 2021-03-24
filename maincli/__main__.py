@@ -1,7 +1,14 @@
 import sys
 import os
 from sys import platform
-from .file import create_file_win,create_file,is_file_exist,is_type_valid
+from .file import (
+    create_file,
+    is_file_exist,is_type_valid,
+    write_header,write_main,
+    write_method
+    )
+    
+    
 
 
 def main():
@@ -17,11 +24,11 @@ def main():
     """
         create the file
     """
-    # create_file(filename)
+    create_file(filename)
     """
        write the headers 
     """
-    
+    write_header(filename)
     """
         get the methods names and types and check if type is valid
     """
@@ -32,12 +39,11 @@ def main():
         if not is_type_valid(methodtype):
             os.system(f"echo type {methodtype} is invalid")
             exit()
-    """
-        write the methods
-    """
+        write_method(filename,methodname,methodtype)
     
     """
         write main method
     """
+    write_main(filename)
 if __name__ == '__main__':
     main()
