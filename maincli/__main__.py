@@ -12,6 +12,10 @@ from .file import (
 
 
 def main():
+    if len(sys.argv) == 1:
+        os.system("echo give a name for the file")
+        exit()
+    
     """
         get the file name and check if exist
     """
