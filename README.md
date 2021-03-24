@@ -1,3 +1,9 @@
-# Command-line Interface to generate c++ files with given name and functions
+# CLI to generate c++ files with given name and functions
 
-# how to install :
+## Installation
+
+```shell
+$ git clone https://github.com/QxEcR/cpp-newfile-CLI.git
+$ cd cpp-newfile-CLI
+$ pip3 install .
+```
