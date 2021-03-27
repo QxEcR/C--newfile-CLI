@@ -41,7 +41,7 @@ $ jv-nf main
 ### Case 2. create a java file with one functions
 #### Command -> jv-nf {filename with no extension} {function name:function type}
 ```shell
-$ cpp-nf main print:void
+$ jv-nf main print:void
 ```
 
 
